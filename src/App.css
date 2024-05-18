@@ -1,0 +1,45 @@
+.container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.container label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.container input[type="text"],
+.container select {
+  padding: 8px;
+  margin: 5px 0;
+  width: calc(100% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.container select {
+  cursor: pointer;
+}
+
+.container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
